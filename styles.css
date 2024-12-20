@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.meme {
+    color: var(--accent-color-2);
+}
+
+:root {
+    font-family: "Roboto";
+    width: 100vw;
+    --accent-color-1: #3882f6;
+    --accent-color-2: #3882f6;;
+    --accent-color-3: #214ec8;
+}
+
+.section-one {
+    background-color: #1f2937;
+    height: 500px;
+    width: 100vw;
+}
+
+.section-one-wrapper {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.section-one .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section-one ul {
+    list-style: none;
+    display: flex;
+    gap: 4em;
+}
+
+.section-one li a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block
+}
+
+.section-one .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one-content {
+    display: flex;
+    margin-top: 100px;
+}
+
+.section-one-left {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.section-one-left h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-one-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.section-one-left button {
+    color: #f9faf8;
+    background-color: var(--accent-color-2);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+}
+
+.section-one-left button:hover {
+    cursor: pointer;
+    background-color: var(--accent-color-3);
+    transform: translateY(-2px);
+}
+
+.section-one-right {
+    flex-grow: 1;
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+}
+
+
+.section-one .header a:hover {
+    color: var(--accent-color-2);
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+/* -----------SECTION TWO ------------- */
+
+.section-two {
+    background-color: white;
+    height: 500px;
+    width: 100vw;
+    padding-top: 50px;
+}
+
+.section-two-wrapper {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.section-two h1 {
+    font-size: 36px;
+    color: #1f2937;
+    weight: 900;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.section-two-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid var(--accent-color-2);
+    border-radius: 16px;
+}
+
+.image-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-card p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #626262;#e5e7eb
+}
+
+.section-three {
+    background-color: ;
+    height: 500px;
+    width: 100vw;
+}
+
+.section-three-wrapper {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.section-three .quote {
+    font-size: 36px;
+    color: #3e4042; 
+    font-style: italic;
+}
+
+.section-three .author {
+    font-weight: 700;
+    text-align:right;
+    margin-top: 20px;
+}
+
+
+.section-four {
+    background-color: white;
+    height: 500px;
+    width: 100vw;
+}
+
+.section-four-wrapper {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.cta-box {
+    border: 1px solid blue;
+    width: 100%;
+    height: 120px;
+    border-radius: 16px;
+    display: flex;
+    padding-left: 100px;
+    justify-content: center;
+    background-color: var(--accent-color-1);
+}
+
+.cta-left {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-h {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.cta-subtext {
+    color: white;   
+    font-weight: 200;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1.5;
+    align-items: center;
+}
+
+.cta-button {
+    flex-grow: 0;
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #e5e7eb;
+}
