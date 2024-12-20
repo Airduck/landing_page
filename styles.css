@@ -157,8 +157,8 @@
 }
 
 .section-three {
-    background-color: ;
-    height: 500px;
+    background-color: #d7d7d7;
+    height: 400px;
     width: 100vw;
 }
 
@@ -183,7 +183,7 @@
 
 .section-four {
     background-color: white;
-    height: 500px;
+    height: 400px;
     width: 100vw;
 }
 
@@ -254,5 +254,5 @@ footer {
 }
 
 .copyright {
-    color: #e5e7eb;
+    color: white;
 }
